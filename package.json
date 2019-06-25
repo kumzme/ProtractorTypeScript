@@ -1,0 +1,27 @@
+{
+  "name": "protractorvs01",
+  "version": "1.0.0",
+  "description": "frame for protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JSFiles/configuration.js",
+    "pretest": "tsc",
+    "cucumbertest": "protractor JSFiles/cucumberConfig.js",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "Deepa",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "typescript": "~3.5.2",
+    "jasmine": "^3.4.0",
+    "@types/jasmine": "^3.3.13",
+    "@types/jasminewd2": "~2.0.6",
+    "ts-node": "8.3.0",
+    "@types/node": "10.12.18",
+    "protractor-cucumber-framework": "^6.1.2",
+    "cucumber": "^5.1.0",
+    "@types/cucumber": "^4.0.6"
+  }
+}
